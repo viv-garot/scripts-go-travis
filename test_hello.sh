@@ -7,7 +7,7 @@ if [[ ${out} == "hello world" ]] ; then
     exit 0
 
 else
-    echo "output is not hello world, but :"
+    echo "output is not hello world but :"
     echo $out
     exit 1
 fi
