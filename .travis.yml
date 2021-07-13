@@ -1,4 +1,3 @@
-language: generic
+language: bash
 script:
-- bash hello.sh
-- bash scripts/test_hello.sh
+- bash test_hello.sh
