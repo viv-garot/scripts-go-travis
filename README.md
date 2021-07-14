@@ -1,5 +1,5 @@
 # scripts-go
-Create a golang program that prints hello in a Vagrant box with travis-ci CI checking the built program print hello successfully 
+Create a golang program that prints hello in a Vagrant box with travis-ci checking the built program prints hello successfully 
 
 ### Pre-requirements
 
@@ -67,7 +67,6 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ### Check the program has been compiled successfully
 
 
-
 ### Sample output
 
 ```
@@ -75,3 +74,17 @@ vagrant ssh -c "./hello"
 hello world
 Connection to 127.0.0.1 closed.
 ```
+
+### Optional : Check build status in Travis
+
+#### Pre-requirements
+
+[travis-ci account](https://travis-ci.com)
+
+#### Import the repo in GitHub
+
+![image](https://user-images.githubusercontent.com/85481359/125571521-6890e462-1258-4100-8f3a-5c6047815f50.png)
+
+#### Check the build in travis-ci.com
+
+![image](https://user-images.githubusercontent.com/85481359/125571873-a2885413-41ad-4e0a-957c-ed709e2d0f80.png)
