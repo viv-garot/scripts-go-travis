@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-go build hello.go
+go build src/hello.go
